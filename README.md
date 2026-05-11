@@ -41,7 +41,7 @@ Inside `package.json` add:
 ## 🌐 Open in Browser
 
 ```bash
-http://localhost:000
+http://localhost:8000
 ```
 
 ---
