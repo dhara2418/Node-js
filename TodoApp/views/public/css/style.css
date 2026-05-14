@@ -1,0 +1,29 @@
+body {
+    background-color: #f4f7fc;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+table {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.badge{
+   padding:8px 14px;
+   border-radius:20px;
+   font-size:13px;
+}
+
+.btn {
+    border-radius: 8px;
+    font-weight: 500;
+}

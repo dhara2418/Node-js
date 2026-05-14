@@ -1,0 +1,74 @@
+<%- include("partials/header") %>
+
+<div class="row justify-content-center">
+
+  <div class="col-md-6">
+
+    <div class="card shadow p-4">
+
+      <h2 class="mb-4 text-center">
+        Edit Task
+      </h2>
+
+      <form action="/update-task/<%= task.id %>"
+            method="POST">
+
+        <div class="mb-3">
+
+          <label>Task Title</label>
+
+          <input type="text"
+                 name="title"
+                 value="<%= task.title %>"
+                 class="form-control">
+
+        </div>
+
+        <div class="mb-3">
+
+          <label>Description</label>
+
+          <textarea name="description"
+                    class="form-control"><%= task.description %></textarea>
+
+        </div>
+
+        <div class="mb-3">
+
+          <label>Priority</label>
+
+          <select name="priority"
+                  class="form-control">
+
+            <option
+              <%= task.priority === "High" ? "selected" : "" %>>
+              High
+            </option>
+
+            <option
+              <%= task.priority === "Medium" ? "selected" : "" %>>
+              Medium
+            </option>
+
+            <option
+              <%= task.priority === "Low" ? "selected" : "" %>>
+              Low
+            </option>
+
+          </select>
+
+        </div>
+
+        <button class="btn btn-primary w-100">
+          Update Task
+        </button>
+
+      </form>
+
+    </div>
+
+  </div>
+
+</div>
+
+<%- include("partials/footer") %>
