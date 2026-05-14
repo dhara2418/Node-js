@@ -57,42 +57,6 @@ TodoApp
 │── package.json
 ```
 
----
-
-# ⚙️ Installation
-
-## Step 1: Clone Project
-
-```bash
-git clone <repository-link>
-```
-
----
-
-## Step 2: Open Folder
-
-```bash
-cd TodoApp
-```
-
----
-
-## Step 3: Install Dependencies
-
-```bash
-npm install
-```
-
----
-
-## Step 4: Run Server
-
-```bash
-node app.js
-```
-
----
-
 # 🌐 Run Project
 
 Open browser:
@@ -171,36 +135,13 @@ Pending → In Progress → Completed
 # 📷 Screenshots Required
 
 - Dashboard Page
+<img width="1840" height="748" alt="image" src="https://github.com/user-attachments/assets/124966a1-1d23-4e44-8a6d-a700c834cb9f" />
+
 - Add Task Page
+<img width="1903" height="768" alt="image" src="https://github.com/user-attachments/assets/3a9f93d3-c146-4eb1-a88f-c291cb80c0d5" />
+
 - Edit Task Page
-- Status Update Output
-
----
-
-# 📌 Example Task Object
-
-```javascript
-{
-   id: 1,
-   title: "Prepare Report",
-   description: "Complete weekly project report",
-   priority: "High",
-   status: "Pending"
-}
-```
-
----
-
-# 🎯 Learning Outcomes
-
-After completing this project, students will understand:
-
-- Express Routing
-- EJS Templating
-- CRUD Operations
-- Dynamic Data Rendering
-- Bootstrap UI Design
-- Middleware Usage
+<img width="1833" height="715" alt="image" src="https://github.com/user-attachments/assets/149024a2-0c04-43c8-8809-803ae41a03a0" />
 
 ---
 
